@@ -59,8 +59,11 @@ Spoonacular: Thanks to Spoonacular for providing the API used in this project.
 
 React.js Community: Thanks to the React.js community for their helpful resources and documentation.
 
-![Screenshot (62)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/460fed63-a75e-400b-a6cb-ad3aaec7d48e)
-![Screenshot (61)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/87d5fdeb-0906-4dca-ae01-2ccc3b55f3fa)
 ![Screenshot (60)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/51c72079-f709-4a51-8744-d453ffac6bec)
+![Screenshot (61)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/87d5fdeb-0906-4dca-ae01-2ccc3b55f3fa)
+![Screenshot (62)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/460fed63-a75e-400b-a6cb-ad3aaec7d48e)
+![Screenshot (64)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/a094792a-5a84-4db0-a6e7-e45a75d8d18c)
+![Screenshot (65)](https://github.com/SumitSharma2000/Recipe-By-Sumit/assets/94536005/f51a736a-6c6a-4cf3-b59a-9676280ec746)
+
 
 
