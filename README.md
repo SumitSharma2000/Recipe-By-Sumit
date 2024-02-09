@@ -58,3 +58,4 @@ Acknowledgements-----------------------------------------------------
 Spoonacular: Thanks to Spoonacular for providing the API used in this project.
 
 React.js Community: Thanks to the React.js community for their helpful resources and documentation.
+
