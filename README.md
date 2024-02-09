@@ -1,4 +1,4 @@
-Recipe Management App
+                                                                                          Recipe Management App
 Overview
 This is a recipe management web application built using React.js. It allows users to search for recipes, view details of each recipe, and save their favorite recipes for future reference. The application utilizes the Spoonacular API to retrieve recipe data.
 
