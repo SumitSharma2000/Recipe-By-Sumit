@@ -1,6 +1,6 @@
-                                                                                          Recipe Management App
-Overview
-This is a recipe management web application built using React.js. It allows users to search for recipes, view details of each recipe, and save their favorite recipes for future reference. The application utilizes the Spoonacular API to retrieve recipe data.
+Recipe Management App
+
+Overview-This is a recipe management web application built using React.js. It allows users to search for recipes, view details of each recipe, and save their favorite recipes for future reference. The application utilizes the Spoonacular API to retrieve recipe data.
 
 Features
 Recipe Search: Users can search for recipes by entering keywords or specific ingredients.
@@ -11,32 +11,26 @@ Responsive Design: The application is designed to be responsive and accessible o
 Installation
 To run the application locally, follow these steps:
 
-Clone the repository:
+1.Clone the repository:
+Copy code- git clone https://github.com/SumitSharma2000/Recipe-By-Sumit
 
-bash
-Copy code- git clone https://github.com/your-username/recipe-management-app.git
-Navigate to the project directory:
-
-bash
+2.Navigate to the project directory:
 Copy code- cd recipe-management-app
-Install dependencies:
 
+3.Install dependencies:
 Copy code- npm install
-Create a .env file in the root directory and add your Spoonacular API key:
 
-makefile
+4.Create a .env file in the root directory and add your Spoonacular API key:
 Copy code - REACT_APP_SPOONACULAR_API_KEY=your-api-key
-Start the development server:
 
-sql
+5.Start the development server:
 Copy code - npm start
-Open your web browser and navigate to http://localhost:3000 to view the application.
+
+6.Open your web browser and navigate to http://localhost:3000 to view the application.
 
 Technologies Used
 React.js: Frontend JavaScript library for building user interfaces.
 Spoonacular API: API for retrieving recipe data, including ingredients, instructions, and nutritional information.
-Bootstrap: Frontend framework for responsive and mobile-first web development.
-Axios: Promise-based HTTP client for making API requests.
 
 Future Improvements
 User Authentication: Implement user authentication and user profiles to allow users to save and access their favorite recipes across devices.
@@ -46,3 +40,7 @@ Offline Support: Implement offline support using service workers to allow users 
 
 Contributing
 Contributions are welcome! If you have any ideas for new features or improvements, please open an issue or submit a pull request.
+
+Acknowledgements
+Spoonacular: Thanks to Spoonacular for providing the API used in this project.
+React.js Community: Thanks to the React.js community for their helpful resources and documentation.
