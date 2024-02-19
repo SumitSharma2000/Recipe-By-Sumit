@@ -113,7 +113,7 @@ export const HomePage = () => {
 
   return (
     <div className="homepage">
-      <h1 style={theme ? {color: "#000"} : {}} className="homepagesumit">Welcome to the Recipe Mangament App By Sumit </h1>
+      <h1 style={theme ? {color: "#000"} : {}} className="homepagesumit">Welcome to the Recipe App By Sumit. <br/><h1>Explore Your Cuisines and Cook Tasty For Your LovedOnes </h1></h1>
       <Search1
         getDatafromSearchComp={getDatafromSearchComp}
         dummydata={dummydata}
