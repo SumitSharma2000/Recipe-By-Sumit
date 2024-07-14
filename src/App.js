@@ -1,10 +1,11 @@
-import "./App.css";
 import React, { createContext, useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { HomePage } from "./Pages/HomePage/HomePage";
+import RecipeDetail from "./Components/RecipeDetail/RecipeDetail";
 import ThemeButton from "./Components/theme-button/theme";
 import Footer from "./Components/Footer/Footer";
+import "./App.css";
 
-// Create the context with a default value
 export const ThemeContext = createContext({ theme: false, setTheme: () => {} });
 
 function App() {
@@ -12,11 +13,16 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div className="App" style={theme ? { backgroundColor: "#feb300" } : {}}>
-        <ThemeButton />
-        <HomePage />
-        <Footer />
-      </div>
+      <Router>
+        <div className="App" style={theme ? { backgroundColor: "#feb300" } : {}}>
+          <ThemeButton />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/recipe/:id" element={<RecipeDetail />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
     </ThemeContext.Provider>
   );
 }
